@@ -198,25 +198,25 @@
     font-size: 46px;
 }
 
-.pentagon-container p {
+.results_pentagons p {
     font-size: var(--xtra-small-font);
     text-align: left;
 }
 
 .pentagon-container {
     position: relative; 
-    width: 190px;
+    width: 190px; 
   }
   
   .pentagon-image {
     display: block;
     width: 100%; 
-    height: auto; 
+    height: auto;
   }
   
   .centered-content {
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 40%; 
     transform: translate(-30%, -40%);
   }

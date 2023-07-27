@@ -204,20 +204,20 @@
 }
 
 .pentagon-container {
-    position: relative; /* To make positioning of child elements relative to this container */
-    width: 190px; /* Set the desired width of the container */
+    position: relative; 
+    width: 190px; 
   }
   
   .pentagon-image {
     display: block;
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 100%; 
+    height: auto; 
   }
   
   .centered-content {
     position: absolute;
-    top: 50%; /* Center the content vertically */
-    left: 40%; /* Center the content horizontally */
+    top: 50%; 
+    left: 40%; 
     transform: translate(-30%, -40%);
   }  
 

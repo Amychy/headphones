@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>test</title>
+
+	<style type="text/css">
+		.animation-container {
+  width: 200px; /* Set the desired width of the container */
+  height: 200px; /* Set the desired height of the container */
+}
+
+.rotating-image {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  animation: rotateImage 4s linear infinite; /* Apply the rotation animation */
+}
+
+@keyframes rotateImage {
+  from {
+    transform: rotate(0deg); /* Initial rotation angle */
+  }
+  to {
+    transform: rotate(360deg); /* Final rotation angle (full rotation) */
+  }
+}
+
+	</style>
+</head>
+<body>
+	<div class="animation-container">
+  <img src="./images/sound-frecuency.jpg" alt="Image" class="rotating-image">
+</div>
+
+</body>
+</html>

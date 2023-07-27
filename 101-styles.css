@@ -153,9 +153,58 @@
     font-size: var(--small-font);
 }
 
-.video {
-    margin-top: -15px;
+.frequency {
+    margin-top: 40px;
 }
+  
+  .rotating-image {
+    width: 40%;
+    height: auto;
+    margin-bottom: 30px;
+    animation: rotateImage 4s linear infinite; 
+  }
+  
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg); 
+    }
+  }
+
+  .section-whatWeDo_contents div:hover {
+    opacity: 0.9;
+    background-color: var(--color-white);
+    box-shadow: 0px 4px 25px rgba(152, 152, 173, 0.15);
+    padding: 20px 0px;
+    border-radius: 10px;
+  }
+  
+  .pentagon-container {
+    position: relative;
+    width: 182px; 
+    height: 172px; 
+    margin: 10px; 
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .pentagon-container:hover {
+    animation: bounce 0.5s ease infinite; 
+    transform: scale(1.1); 
+    opacity: 0.9;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }  
+  
 /* END OF WHAT WE DO SECTION */
 /* START OF OUR RESULTS SECTION */
 
@@ -198,14 +247,14 @@
     font-size: 46px;
 }
 
-.pentagon-container p {
+.results_pentagons p {
     font-size: var(--xtra-small-font);
     text-align: left;
 }
 
 .pentagon-container {
     position: relative; 
-    width: 190px;
+    width: 190px; 
   }
   
   .pentagon-image {
