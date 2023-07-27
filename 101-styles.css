@@ -181,30 +181,6 @@
     border-radius: 10px;
   }
   
-  .pentagon-container {
-    position: relative;
-    width: 182px; 
-    height: 172px; 
-    margin: 10px; 
-    cursor: pointer; 
-    transition: transform 0.2s ease-in-out; 
-  }
-  
-  .pentagon-container:hover {
-    animation: bounce 0.5s ease infinite; 
-    transform: scale(1.1); 
-    opacity: 0.9;
-  }
-  
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0); 
-    }
-    50% {
-      transform: translateY(-20px);
-    }
-  }  
-  
 /* END OF WHAT WE DO SECTION */
 /* START OF OUR RESULTS SECTION */
 
@@ -251,11 +227,6 @@
     font-size: var(--xtra-small-font);
     text-align: left;
 }
-
-.pentagon-container {
-    position: relative; 
-    width: 190px; 
-  }
   
   .pentagon-image {
     display: block;
@@ -269,6 +240,30 @@
     left: 40%; 
     transform: translate(-30%, -40%);
   }
+
+  .pentagon-container {
+    position: relative;
+    width: 182px; 
+    height: 172px; 
+    margin: 10px; 
+    cursor: pointer; 
+    transition: transform 0.2s ease-in-out; 
+  }
+  
+  .pentagon-container:hover {
+    animation: bounce 0.5s ease infinite; 
+    transform: scale(1.1); 
+    opacity: 0.9;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); 
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }  
   /* END OF OUR RESULTS SECTION */
   /* START OF CONTACT US SECTION */
 
